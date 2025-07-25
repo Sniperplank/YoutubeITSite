@@ -1,7 +1,10 @@
 body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-    background-color: black;
+    /* background-color: black; */
+    background-image: linear-gradient(to right top, #b10000, #930014, #73011a, #530a1b, #320d16, #320d16, #320d16, #320d16, #530a1b, #73011a, #930014, #b10000);
     color: white;    
+    height: 100vh;
+    overflow: hidden;
 }
 
 .container {
@@ -15,11 +18,12 @@ body {
 }
 
 .title {
-    font-size: 70px;
+    font-size: 100px;
     text-shadow: 0 0 50px red;
 }
 
 .description {
+    font-size: larger;
     font-weight: bold;
 }
 
@@ -46,5 +50,5 @@ body {
 
 .btn:hover {
     /* color: red; */
-    box-shadow: inset 0 0 10px 0 rgb(150, 2, 2), 0 0 20px 0 rgb(150, 2, 2);
+    box-shadow: inset 0 0 10px 0 red, 0 0 20px 0 red;
 }
